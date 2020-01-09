@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import rx.controls.RXCarousel?>
+<?import rx.controls.RXToggleButton?>
+
+<AnchorPane prefHeight="396.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="40.0" layoutY="54.0" prefHeight="396.0" prefWidth="115.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <RXToggleButton id="bh" contentDisplay="TOP" prefHeight="64.0" prefWidth="80.0" text="Home">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/h.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <toggleGroup>
+                  <ToggleGroup fx:id="groupdh" />
+               </toggleGroup>
+            </RXToggleButton>
+            <RXToggleButton id="bb" prefHeight="64.0" prefWidth="80.0" text="Business" toggleGroup="$groupdh" />
+            <RXToggleButton id="bc" contentDisplay="TOP" prefHeight="64.0" prefWidth="80.0" text="Contact us" toggleGroup="$groupdh">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/c.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </RXToggleButton>
+            <RXToggleButton id="ba" prefHeight="64.0" prefWidth="80.0" text="About" toggleGroup="$groupdh" />
+         </children>
+         <padding>
+            <Insets top="30.0" />
+         </padding>
+      </VBox>
+      <RXCarousel id="pane" arrowDisplayMode="HIDE" autoSwitch="false" layoutX="122.0" layoutY="31.0" navDisplayMode="HIDE" prefHeight="350.0" prefWidth="450.0" scaleType="CENTER_INSIDE" transitionType="MOVE_TO_TOP" />
+   </children>
+</AnchorPane>

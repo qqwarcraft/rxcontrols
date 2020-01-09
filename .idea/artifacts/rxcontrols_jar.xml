@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="rxcontrols:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/rxcontrols_jar</output-path>
+    <root id="archive" name="rxcontrols.jar">
+      <element id="module-output" name="rxcontrols" />
+    </root>
+  </artifact>
+</component>

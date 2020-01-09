@@ -1,0 +1,15 @@
+.avatar-shape {
+    -fx-stroke-width: 5;
+    -fx-stroke-line-cap: round;
+    -fx-stroke-dash-offset: 6;
+    -fx-stroke-dash-array: 12 2 4 2;
+    -fx-stroke: #8cb5ff;
+
+}
+.rx-text-field{
+    -rx-button-display:show;
+ }
+
+.rx-text-field-bs{
+    -rx-button-display:show;
+}

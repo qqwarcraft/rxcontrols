@@ -1,0 +1,6 @@
+.rx-highlight-label .highlight-label{
+    -fx-background-color: #fffe9f;
+}
+.rx-highlight-label .plain-text{
+    -fx-fill: #000000;
+}

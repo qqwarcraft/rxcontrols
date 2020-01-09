@@ -1,0 +1,7 @@
+
+.tab {
+    visibility: hidden;
+}
+.tab-pane{
+     -fx-padding: 0 0 0 -30;
+ }
